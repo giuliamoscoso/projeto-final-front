@@ -1,0 +1,44 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<!-- Inicio do documento HTML -->
+<html lang="pt-BR">
+     <!-- Cabeçalho do documento -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!--CSS Estilo-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!-- CSS Normalize -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+        <title>GIFE - Cadastro</title>
+    </head>
+    <!-- Corpo do documento -->
+    <body id="container">
+        <form class="form-signin" action="#" method="POST">
+            <h1 class="mb-5 font-weight-normal text-center">Cadastro Usuário</h1>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" class="form-control" placeholder="Digite seu E-mail" required autofocus>
+            </div>
+            <div class="form-group">
+                <label for="user">Usuário:</label>
+                <input type="text" id="user" name="user" class="form-control mb-3" placeholder="Digite seu Usuário" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" class="form-control" placeholder="Digite sua senha" required>
+            </div>
+            <button class="btn btn-lg btn-primary" type="reset">Limpar</button>
+            <button class="btn btn-lg btn-success" type="submit">Cadastrar</button>
+            <div class="cadastrar">
+                Caso Usuário já tem cadastro voltem para pagina do<a href="index.html"> Login.</a>
+            </div>
+        </form>
+    </body>
+</html>
+<!-- Fim do documento HTML -->
