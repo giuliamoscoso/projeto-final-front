@@ -1,0 +1,50 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<!-- Inicio do documento HTML -->
+<html lang="pt-BR">
+     <!-- Cabeçalho do documento -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!--CSS Estilo-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!-- CSS Normalize -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+        <title>GIFE - Adicionar Produtos</title>
+    </head>
+    <!-- Corpo do documento -->
+    <body id="container">
+        <form class="form-signin" action="#" method="POST">
+            <h1 class="mb-5 font-weight-normal text-center">Adicionar Produtos</h1>
+            <div class="form-group">
+                <label for="nome-produto">Nome do Porduto:</label>
+                <input type="text" id="nome-produto" name="nome-produto" class="form-control" placeholder="Digite o nome do produto" required autofocus>
+            </div>
+            <div class="form-group">
+                <label for="cate-produto">Categoria:</label>
+                <input type="text" id="cate-produto" name="cate-produto" class="form-control mb-3" placeholder="Categoria do Produto" required>
+            </div>
+            <div class="form-group">
+                <label for="qtd-produto">Quantidade:</label>
+                <input type="text" id="qtd-produto" name="qtd-produto" class="form-control" placeholder="Quantidade do produto" required>
+            </div>
+            <div class="form-group">
+                <label for="preco-produto">Quantidade:</label>
+                <input type="text" id="preco-produto" name="preco-produto" class="form-control" placeholder="Preço do produto em R$" required>
+            </div>
+            <button class="btn btn-lg btn-primary" type="reset">Limpar</button>
+            <button class="btn btn-lg btn-success" type="submit">Cadastrar</button>
+        </form>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+<!-- Fim do documento HTML -->
