@@ -43,3 +43,16 @@ html, body {
     text-align: center;  
     padding: 20px 0 0;  
 }
+.titulo-form {
+    background-color: #343a40;
+    color: #FFF;
+    padding: 3px 8px;
+}
+fieldset {
+    padding: 1rem;
+    border: 0.5 solid gray;
+    background-color: #f5f5f5;
+}
+button {
+    margin-top: 1rem;
+}
